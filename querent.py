@@ -9,6 +9,8 @@
 import random
 import json
 
+interpretations_file = "data/card_meanings.json"
+
 def parse_interpretations(path):
     with open(path) as f:
         data = json.load(f)

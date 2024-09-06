@@ -22,7 +22,7 @@ import json
 
 Interpretations of the cards are stored in a JSON file.
 
-#+BEGIN_SRC python
+#+BEGIN_SRC python :tangle querent.py
 interpretations_file = "data/card_meanings.json"
 #+END_SRC
 
