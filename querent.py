@@ -14,11 +14,18 @@ def parse_interpretations(path):
         data = json.load(f)
         return data
 
-major_arcana = ["The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant", "The Lovers", "The Chariot", "Justice", "The Hermit", "The Wheel of Fortune", "Strength", "The Hanged Man", "Death", "Temperance", "The Devil", "The Tower", "The Star", "The Moon", "The Sun", "Judgement", "The World"]
+major_arcana = ["The Fool", "The Magician", "The High Priestess",
+                "The Empress", "The Emperor", "The Hierophant",
+                "The Lovers", "The Chariot", "Justice",
+                "The Hermit", "The Wheel of Fortune", "Strength",
+                "The Hanged Man", "Death", "Temperance",
+                "The Devil", "The Tower", "The Star",
+                "The Moon", "The Sun", "Judgement", "The World"]
 
 suits = ["Wands", "Swords", "Cups", "Pentacles"]
 
-ranks = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Page", "Knight", "Queen", "King"]
+ranks = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven",
+         "Eight", "Nine", "Ten", "Page", "Knight", "Queen", "King"]
 
 minor_arcana = [f"{card} of {suit}" for card in ranks for suit in suits]
 
