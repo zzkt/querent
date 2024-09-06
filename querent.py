@@ -31,7 +31,7 @@ minor_arcana = [f"{card} of {suit}" for card in ranks for suit in suits]
 
 deck = major_arcana + minor_arcana
 
-interpretation = parse_interpretations("data/card_meanings.json")
+interpretation = parse_interpretations(interpretations_file)
 
 def prepare_the_cards():
     return deck

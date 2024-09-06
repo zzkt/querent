@@ -20,7 +20,14 @@ import random
 import json
 #+END_SRC
 
-Interpretations of the cards are stored in a JSON file. This function will parse the interpretation file and return a python dictionary.
+Interpretations of the cards are stored in a JSON file.
+
+#+BEGIN_SRC python
+interpretations_file = "data/card_meanings.json"
+#+END_SRC
+
+This function will parse the interpretation file and return a python dictionary.
+
 #+BEGIN_SRC python :tangle querent.py
 def parse_interpretations(path):
     with open(path) as f:
@@ -29,6 +36,7 @@ def parse_interpretations(path):
 #+END_SRC
 
 The cards
+
 #+BEGIN_SRC python :tangle querent.py
 major_arcana = ["The Fool", "The Magician", "The High Priestess",
                 "The Empress", "The Emperor", "The Hierophant",
@@ -49,23 +57,27 @@ deck = major_arcana + minor_arcana
 #+END_SRC
 
 The interpretation of the cards
+
 #+BEGIN_SRC python :tangle querent.py
-interpretation = parse_interpretations("data/card_meanings.json")
+interpretation = parse_interpretations(interpretations_file)
 #+END_SRC
 
-Preparation of the cards (current just returns the deck)
+Preparation of the cards (currently just returns the deck)
+
 #+BEGIN_SRC python :tangle querent.py
 def prepare_the_cards():
     return deck
 #+END_SRC
 
 Shuffle the deck
+
 #+BEGIN_SRC python :tangle querent.py
 def shuffle_deck(deck):
     random.shuffle(deck)
 #+END_SRC
 
 Create a three card spread by picking the first three cards from the deck
+
 #+BEGIN_SRC python :tangle querent.py
 def spread_cards(deck):
     spread = deck[0:3]
@@ -73,6 +85,7 @@ def spread_cards(deck):
 #+END_SRC
 
 Interpret the spread (assuming a three card spread)
+
 #+BEGIN_SRC python :tangle querent.py
 def interpret_spread(spread):
     positions = ["ANCHOR: The present situation, what grounds you.",
@@ -84,6 +97,7 @@ def interpret_spread(spread):
 #+END_SRC
 
 Read the cards
+
 #+BEGIN_SRC python :tangle querent.py
 def read_cards():
     deck = prepare_the_cards()
@@ -93,6 +107,7 @@ def read_cards():
 #+END_SRC
 
 If this script is run from the command line, it calls the =read_cards= function and exits
+
 #+BEGIN_SRC python :tangle querent.py
 if __name__ == '__main__':
     read_cards()
