@@ -4,7 +4,9 @@
 Establish the computational, social and legalistic environments
 #+BEGIN_SRC python :tangle querent.py
 #!/usr/bin/env python
+#+END_SRC
 
+#+BEGIN_SRC python :tangle querent.py
 # File name: querent.py
 # Description: An experimental software tool for personal tarot practice.
 # Author: nik gaffney <nik@fo.am>
