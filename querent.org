@@ -1,0 +1,89 @@
+# -*- mode: org;  coding: utf-8; -*-
+#+title: querent
+
+Establish the computational, social and legalistic environments
+#+BEGIN_SRC python :tangle querent.py
+#!/usr/bin/env python
+# File name: querent.py
+# Description: An experimental software tool for personal tarot practice.
+# Author: nik gaffney <nik@fo.am>
+# Created: 2024-09-06
+# SPDX-License-Identifier: GPL-3.0-or-later
+#+END_SRC
+
+Required libraries
+#+BEGIN_SRC python :tangle querent.py
+import random
+import json
+#+END_SRC
+
+Interpretations of the cards are stored in a JSON file. This function will parse the interpretation file and return a python dictionary.
+#+BEGIN_SRC python :tangle querent.py
+def parse_interpretations(path):
+    with open(path) as f:
+        data = json.load(f)
+        return data
+#+END_SRC
+
+The cards
+#+BEGIN_SRC python :tangle querent.py
+major_arcana = ["The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant", "The Lovers", "The Chariot", "Justice", "The Hermit", "The Wheel of Fortune", "Strength", "The Hanged Man", "Death", "Temperance", "The Devil", "The Tower", "The Star", "The Moon", "The Sun", "Judgement", "The World"]
+
+suits = ["Wands", "Swords", "Cups", "Pentacles"]
+
+ranks = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Page", "Knight", "Queen", "King"]
+
+minor_arcana = [f"{card} of {suit}" for card in ranks for suit in suits]
+
+deck = major_arcana + minor_arcana
+#+END_SRC
+
+The interpretation of the cards
+#+BEGIN_SRC python :tangle querent.py
+interpretation = parse_interpretations("data/card_meanings.json")
+#+END_SRC
+
+Preparation of the cards (current just returns the deck)
+#+BEGIN_SRC python :tangle querent.py
+def prepare_the_cards():
+    return deck
+#+END_SRC
+
+Shuffle the deck
+#+BEGIN_SRC python :tangle querent.py
+def shuffle_deck(deck):
+    random.shuffle(deck)
+#+END_SRC
+
+Create a three card spread by picking the first three cards from the deck
+#+BEGIN_SRC python :tangle querent.py
+def spread_cards(deck):
+    spread = deck[0:3]
+    return spread
+#+END_SRC
+
+Interpret the spread (assuming a three card spread)
+#+BEGIN_SRC python :tangle querent.py
+def interpret_spread(spread):
+    positions = ["ANCHOR: The present situation, what grounds you.",
+                 "TIDE: The changing influences, what's in flux.",
+                 "HORIZON: The long-term outlook, what's ahead."]
+    for i in range(3):
+        card = spread[i]
+        print(f"{positions[i]}\n{card}: {interpretation[card]}\n")
+#+END_SRC
+
+Read the cards
+#+BEGIN_SRC python :tangle querent.py
+def read_cards():
+    deck = prepare_the_cards()
+    shuffle_deck(deck)
+    spread = spread_cards(deck)
+    interpret_spread(spread)
+#+END_SRC
+
+If this script is run from the command line, it calls the =read_cards= function and exits
+#+BEGIN_SRC python :tangle querent.py
+if __name__ == '__main__':
+    read_cards()
+#+END_SRC

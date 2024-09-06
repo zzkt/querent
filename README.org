@@ -1,0 +1,4 @@
+# -*- mode: org; coding: utf-8; -*-
+#+title: querent
+
+diverged from jcalpickard’s [[https://github.com/jcalpickard/querent.py][querent.py]] as an example of literate programing (using [[https://orgmode.org/features.html][org-mode]]) in a [[https://docs.python.org/3/howto/functional.html][functional style]].
