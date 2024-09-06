@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 
+# File name: querent.py
+# Description: An experimental software tool for personal tarot practice.
+# Author: nik gaffney <nik@fo.am>
+# Created: 2024-09-06
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 import random
 import json
 
