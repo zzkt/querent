@@ -1,0 +1,314 @@
+{
+  "Le Bateleur": {
+    "interpretation": "Activité sous toutes ses formes. Vie professionnelle positive. Mise en place positive d’un projet. Nouveauté, rencontre, début, commencement. Création favorisée dans tous les domaines. Enfant, adolescent ou jeune homme.",
+    "image": "tdm/atouts_01.jpg"
+  },
+  "La Pances": {
+    "interpretation": "Développement des facultés intellectuelles. Nécessité de réfléchir. Succés dans les études entreprises. Formations réussies. Passivité sur le plan concret mais activité mentale. Femme douce, étudiante, épouse.",
+     "image": "tdm/atouts_02.jpg"
+  },
+  "Impératris": {
+    "interpretation": "Pouvoir. Accession 4 une position dirigeante. Pleine possession de ses moyens. Obtention d’un poste élevé. Accroissement des responsabilités. Excellente vitalité. Femme active, forte et stire d’elle.",
+     "image": "tdm/atouts_03.jpg"
+  },
+  "L'Empereur": {
+    "interpretation": "Stabilité, sécurité, situation bien en place (sur le plan professionnel ou affectif). Engagement dans la durée. Certitudes. Cessation des doutes. Détermination. Période calme et tranquille. Homme stable, ayant une bonne situation.",
+     "image": "tdm/atouts_04.jpg"
+  },
+  "Le Pape": {
+    "interpretation": "Accord, autorisation, caution, approbation donnés par une personne influente (qui détient l’autorité). Tout ce quia un rapport avec les rituels religieux (baptéme, mariage, etc.). Homme mir, le pére.",
+     "image": "tdm/atouts_05.jpg"
+  },
+  "L'Amoureu": {
+    "interpretation": "L’amour régne dans la vie du consultant. Sa vie sentimentale est positive et équilibrée. Rencontre probable pour un célibataire. Nécessité de faire un choix (dans n’importe quel domaine selon les autres lames ou la question posée). Prise de décision, engagement.",
+     "image": "tdm/atouts_06.jpg"
+  },
+  "Le Charior": {
+    "interpretation": "Réussite sociale. Le fait de remporter des succés professionnels. Evolution qui remplit le consultant de joie. Satisfactions au niveau de ses diverses activités. Triomphe.",
+     "image": "tdm/atouts_07.jpg"
+  },
+  "Justice": {
+    "interpretation": "Toutes affaires juridiques ou administratives favorables au consultant. Gain d’un procés. Le fait d’officialiser une situation (affective ou professionnelle). Sentiment d’étre entendu. Equilibre, harmonie, bilan positif.",
+     "image": "tdm/atouts_08.jpg"
+  },
+  "L'Ermite": {
+    "interpretation": "Solitude, réelle ou ressentie, bien ou mal vécue (selon les autres lames ou la  35 question posée). Isolement, prise de distances. Conseille d’agir seul et de rester indépendant. Retrait, repli, intériorisation. Favorise l’évolution spirituelle.",
+     "image": "tdm/atouts_09.jpg"
+  },
+  "La Roue de Fortun": {
+    "interpretation": "Changement positif. Evolution et progression. Rythme naturel de la vie. Mouvement novateur contre lequel le sujet ne doit pas lutter. Le sujet récolte le fruit de ses efforts. Conseille d’adopter une attitude confiante. Ne rien précipiter mais ne pas non plus refuser le changement.",
+     "image": "tdm/atouts_10.jpg"
+  },
+  "Force": {
+    "interpretation": "Bonne santé, vitalité, force physique. Pleine possession de ses moyens. Position dominante. Responsabilités. Pouvoir. Le consultant est armé pour faire face a toutes les situations.",
+     "image": "tdm/atouts_11.jpg"
+  },
+  "Le Pandu": {
+    "interpretation": "Impuissance, blocages, contraintes, le fait d’étre « coincé ». Obstacles et entraves. Le consultant ne peut rien faire. Attente, patience nécessaire, acceptation. Ouverture spirituelle possible.",
+     "image": "tdm/atouts_12.jpg"
+  },
+  "(La Mort)": {
+    "interpretation": "Transformation radicale et brutalé, qui est bien ou mal vécue, mais toujours positive pour le sujet. Fin d’une situation. Ruptures diverses. Destruction nécessaire avant de reconstruire.",
+     "image": "tdm/atouts_13.jpg"
+  },
+  "Tempérance": {
+    "interpretation": "Période favorable a4 la communication, aux échanges, au dialogue et aux rencontres. Bonne harmonie avec les autres. Le fait d@’étre bien entouré. Bonne circulation des énergies. Santé et vitalité. Adaptation positive. Talent de médiateur et de conciliateur.",
+     "image": "tdm/atouts_14.jpg"
+  },
+  "Le Diable": {
+    "interpretation": "Gains, amélioration financiére, augmentation des revenus. Rentrées d’argent de toutes sortes. Sensualité. Bonne entente sexuelle dans le couple. Passage d’une relation amicale vers une relation amoureuse. Grande vitalité, magnétisme, charme, succés auprés de l’autre sexe. Nature épicurienne. Période de plaisir.",
+     "image": "tdm/atouts_15.jpg"
+  },
+  "La Maison Dieu": {
+    "interpretation": "Echec. Difficultés vécues  douloureusement. Involution. Désillusion. Accidents de parcours. Imprévus déstabilisants. Tout événement négatif et brutal.",
+     "image": "tdm/atouts_16.jpg"
+  },
+  "Le Toile": {
+    "interpretation": "Chance, aide providentielle, protection. Tout est rendu facile. Eclaircissement, inspiration, idée de génie. Talents artistiques,  51 notamment dans les arts d’interprétation. Fécondité. Bonne santé. Guérison.",
+     "image": "tdm/atouts_17.jpg"
+  },
+  "La Lune": {
+    "interpretation": "Imagination féconde. Création. Talents artistiques, notamment dans les arts de composition. Passivité extérieure. Période de grand calme sur le plan de la réalité.  Intuition aiguisée. Réceptivité. Psychologie. Tout ce qui est en relation avec l’eau. Féminité, fécondité, grossesse.",
+     "image": "tdm/atouts_18.jpg"
+  },
+  "Le Soleil": {
+    "interpretation": "Satisfactions diverses. Réussite dans ses projets. Aboutissement positif d’une démarche. Conseille de cultiver le contentement et de profiter des moments agréables de I’existence. Chaleur, détente, bien-étre. Le fait d’aller au soleil, dans le Sud.",
+     "image": "tdm/atouts_19.jpg"
+  },
+  "Le Jugement": {
+    "interpretation": "Représente ou favorise tout ce qui est en relation avec le passé. Retour, réconciliation. Réactualisation d’une situation ancienne (positive ou négative selon les autres lames).  57 Tempérament fidéle. Persévérance et régularité dans l’action. Le fait d’avoir une croyance et une pratique religieuses.",
+     "image": "tdm/atouts_20.jpg"
+  },
+  "Le Monde": {
+    "interpretation": "Réalisation totale. Epanouissement, accomplissement. Révélation, le fait de trouver sa voie. Indique ou favorise les voyages et les relations avec l’étranger (usage de langues étrangéres, origines étrangéres, etc.). Ouverture, communication, public, célébrité.",
+     "image": "tdm/atouts_21.jpg"
+  },
+  "Le Fol": {
+    "interpretation": "Tous les déplacements, mutations, vacances. Le fait d’étre mobile, de bouger. Indique un nouveau départ en abandonnant tout.  61 Création, innovation. Le fait d’étre original, différent.",
+    "image": "tdm/atouts_00.jpg"
+  },
+  "As de Bâton": {
+    "interpretation": "Exaltation. Optimisme. Euphorie. Le consultant posséde une grande énergie. Il a une vitalité étonnante. Il est d’>humeur gaie, joyeuse et confiante. Nature extravertie et enjouée.",
+    "image": "tdm/B_01.jpg"
+  },
+  "As d'Épée": {
+    "interpretation": "Création. Précision. Clarté intellectuelle. Projet d’activité pouvant étre mené a terme. Changement professionnel. Nouvel emploi. Entrée dans la vie active. Grossesse.",
+    "image": "tdm/E_01.jpg"
+  },
+  "As de Coupe": {
+    "interpretation": "Indépendance. Autonomie. Solitude (réelle ou ressentie) bien vécue. Isolement recherché. Possibilité de rencontre amoureuse. Démarrage d’une relation sentimentale.",
+    "image": "tdm/C_01.jpg"
+  },
+  "As de Deniers": {
+    "interpretation": "Lame favorable la réalisation des projets. Rien n’est encore fait mais tout est possible. Chance. Bon départ. Situation précaire mais pouvant se développer rapidement. Esprit créatif. Le fait d’avoir encore peu d’argent et de moyens, mais de pouvoir espérer un aboutissement des projets mateériels. Bonne santé.",
+    "image": "tdm/D_01.jpg"
+  },
+  "Deux de Bâton": {
+    "interpretation": "Pondération. Richesse intellectuelle. Bon sens de l’analyse. Réflexion. Contréle des émotions. Le consultant envisage la situation de maniére posée et rationnelle. Il ne céde pas a limpulsion. Lame favorable aux amitiés et aux contacts. Le consultant peut compter sur les autres. Il est entouré de personnes bienveillantes et positives.",
+    "image": "tdm/B_02.jpg"
+  },
+  "Deux d'Épée": {
+    "interpretation": "Richesse intellectuelle.  Temps propice a la réflexion. Le consultant se montre imaginatif, créatif et ingénieux. Ce n’est pas le moment d’agir ; il faut en profiter pour penser, organiser, planifier. L’esprit est vif et rapide. Bon sens de l’analyse. Bonne culture générale. Peut également (selon le jeu) favoriser les associations professionnelles. Il est bon de rechercher des collaborateurs, d’unir ses forces.",
+    "image": "tdm/E_02.jpg"
+  },
+  "Deux de Coupe": {
+    "interpretation": "Relation de couple existante Ou qui se met en place. Couple sans indications sur la qualité de la relation. Représente toute relation réguliére sans qu’il y ait forcément de vie commune ou de mariage.",
+    "image": "tdm/C_02.jpg"
+  },
+  "Deux de Deniers": {
+    "interpretation": "Attente. Passivité générale. Période calme et tranquille. Aucun événement financier ne se présente: ni amélioration, ni aggravation. Possibilité de bénéficier d’une aide extérieure. Il faut demander conseil, consulter un financier ou un banquier, ou encore toutes personnes susceptibles de venir en aide. Hésitations dans le présent. Fatigue générale.",
+    "image": "tdm/D_02.jpg"
+  },
+  "Trois de Bâton": {
+    "interpretation": "Grande activité. Energie débordante. Le consultant réagit rapidement aux situations qui se présentent. Il est combatif et porté par la force de ses émotions. Ce tempérament révéle une tendance a étre trop impulsif et trop expéditif, 4 toujours tout vouloir régler par la force. La lame indique une prise de pouvoir et d’indépendance. Le consultant se libére de chaines ou de liens encombrants.",
+    "image": "tdm/B_03.jpg"
+  },
+  "Trois d'Épée": {
+    "interpretation": "Changement professionnel rapide, radical et bénéfique. Phase d’action. Orientation nouvelle et positive. Ascension. Transformation totale de sa situation professionnelle. Nouvel emploi.",
+    "image": "tdm/E_03.jpg"
+  },
+  "Trois de Coupe": {
+    "interpretation": "Passion partagée. Coup de foudre. Grande intensité des sentiments. Le fait d’étre amoureux. Grande joie sur le plan affectif. Adoration. Désir. Entente sexuelle.",
+    "image": "tdm/C_03.jpg"
+  },
+  "Trois de Deniers": {
+    "interpretation": "Gains. Accroissement des revenus de maniére brutale. Rentrées d’argent. Forte vitalité, beaucoup d’énergie sur le plan de la santé.",
+    "image": "tdm/D_03.jpg"
+  },
+  "Quatre de Bâton": {
+    "interpretation": "Maitrise. Stabilité d’humeur.  Calme, quiétude mentale. Grande force de caractére. Le consultant peut faire face a toutes les situations qui se présentent. Il ne se laisse pas emporter par ses émotions. I] ne céde pas a Pangoisse. La lame suggére une notion de sécurité. Elle protege le consultant. Rien de grave ne peut lui arriver. Prise de décision, le fait de faire un choix.",
+    "image": "tdm/B_04.jpg"
+  },
+  "Quatre d'Épée": {
+    "interpretation": "Phase de stabilisation. Sécurité d’emploi. Changement déconseillé. Il faut continuer et persévérer dans la démarche entreprise. Favorise les carriéres administratives, le fonctionnariat.",
+    "image": "tdm/E_04.jpg"
+  },
+  "Quatre de Coupe": {
+    "interpretation": "Engagement affectif réciproque. Vie commune (mariage ou concubinage) existante ou qui se met en place. Régularisation dune relation. Famille. Naissance d’un enfant. Sécurité affective.",
+    "image": "tdm/C_04.jpg"
+  },
+  "Quatre de Deniers": {
+    "interpretation": "Stabilité financiére. Lame de protection. Aucune aggravation ou évolution négative n’est a craindre. Sécurité financiére. Le consultant a les moyens de faire face.",
+    "image": "tdm/D_04.jpg"
+  },
+  "Cinq de Bâton": {
+    "interpretation": "Contentement. Réussite prévue ou attendue, intervenant suite 4 une démarche déja entreprise. Période de récolte. Phase de concrétisation. Confiance en soi, assurance. Souplesse de caractére. Humeurs variables et changeantes, avec tendance a passer par des hauts et des bas. Grande capacité d’adaptation.",
+    "image": "tdm/B_05.jpg"
+  },
+  "Cinq d'Épée": {
+    "interpretation": "Evolution. Promotion. Augmentation de salaire. Progression professionnelle en restant dans la méme branche d’activité. Changement bénéfique et heureux pour le consultant.",
+    "image": "tdm/E_05.jpg"
+  },
+  "Cinq de Coupe": {
+    "interpretation": "Changement affectif positif : soit dans la composition de la relation (retrouvailles, meilleure entente) ; soit de partenaire ; soit, pour une personne seule, rencontre (arrét de sa solitude).",
+    "image": "tdm/C_05.jpg"
+  },
+  "Cinq de Deniers": {
+    "interpretation": "Evolution. Projet financier qui se concrétise. Lame de progression. Accroissement des revenus. Augmentation de salaire. Promotion durable. Le consultant trouve des solutions a ses problemes. Tout s’arrange, non pas brutalement, mais de maniére progressive et certaine. Evolution positive sur le plan de la santé.",
+    "image": "tdm/D_05.jpg"
+  },
+  "Six de Bâton": {
+    "interpretation": "Désordre intérieur. Confusion  mentale. Encombrement : le fait de trop penser ou de trop faire de choses a la fois. Manque d’organisation. Dispersion. Lenteur dans le développement et |’évolution des choses car doutes intérieurs paralysants et stériles. Le consultant est en proie a ses motions. Cette richesse intérieure le rend créatif. Lame favorable aux créateurs, aux inventeurs, aux artistes. Elle donne du génie (dt a la nature déchirée).",
+    "image": "tdm/B_06.jpg"
+  },
+  "Six d'Épée": {
+    "interpretation": "Augmentation des revenus sans changement de poste ou d’emploi. Favorise les carriéres artistiques. Donne du talent, du génie. Permet de se réaliser dans un travail créatif.",
+    "image": "tdm/E_06.jpg"
+  },
+  "Six de Coupe": {
+    "interpretation": "Amour pur, sincére et partagé. Le fait d’aimer et d’étre aimé. Réciprocité des sentiments. C’est lune des meilleures lames de coupe, elle garantit la solidité et la sincérité de l'amour.",
+    "image": "tdm/C_06.jpg"
+  },
+  "Six de Deniers": {
+    "interpretation": "Des efforts sont indispensables  pour obtenir des résultats. Evolution financiére positive si un travail nécessaire est fourni. Association conseillée. Le consultant doit rechercher des collaborateurs, s’entourer de personnes compétentes. Dans tous les cas, il est nécessaire d’agir, de semer. Santé : sensation de malaise, déprime.",
+    "image": "tdm/D_06.jpg"
+  },
+  "Sept de Bâton": {
+    "interpretation": "Bonheur. Réussite et réalisation. Sentiment d’équilibre intérieur. Le consultant est bien dans sa peau. II est heureux et fait preuve de sagesse et de sérénité. Il s’*épanouit dans ce qu’il fait. Il s’accomplit dans sa vie. Réalisation intérieure favorisant une évolution rapide et positive des choses (dans tous les domaines). C’est l’une des cartes les plus bénéfiques des mineures. Trés bonne santé et guérison en cas de maladie.",
+    "image": "tdm/B_07.jpg"
+  },
+  "Sept d'Épée": {
+    "interpretation": "Réussite et réalisation dans le travail. Accession a l’autorité, 4 de nouvelles responsabilités. Progrés. Croissance. Favorise les activités relationnelles 4 caractére social.",
+    "image": "tdm/E_07.jpg"
+  },
+  "Sept de Coupe": {
+    "interpretation": "Epanouissement. Réalisation de ses désirs. Le fait de se sentir bien dans sa vie affective (dans le célibat ou la vie de couple). Le consultant est heureux, en harmonie avec luiméme et les autres. Communication. Favorise les échanges.",
+    "image": "tdm/C_07.jpg"
+  },
+  "Sept de Deniers": {
+    "interpretation": "Réussite et réalisation financiéres. Expansion. Gains. Opulence et richesse. Accession a un trés bon niveau de vie. Confort. Bonne santé et guérison en cas de maladie.",
+    "image": "tdm/D_07.jpg"
+  },
+  "Huit de Bâton": {
+    "interpretation": "Illusion. Perte du sens des réalités. Idéalisme excessif. Nature portée a l’utopie, au réve et a l’illusion. Le fait de prendre ses désirs pour des réalités. Passivité totale. Ne réalise rien. Apathie. Paresse. Se laisse aller. Spiritualité négative, dépourvue de tout fondement. Croyance totale. Irrationalité. Le consultant n’assume pas ses responsabilités (il est perdu dans ses réves), il n’a aucune conscience de la réalité et, éventuellement, de la gravité des choses.",
+    "image": "tdm/B_08.jpg"
+  },
+  "Huit d'Épée": {
+    "interpretation": "Limitations. Situation professionnelle satisfaisante 4 court terme, mais qui S’avére sans intérét a long terme. Insatisfaction ressentie rapidement. Il est nécessaire d’agir, de se diriger vers la nouveauté. Le consultant doit oser le changement, s'il veut progresser.",
+    "image": "tdm/E_08.jpg"
+  },
+  "Huit de Coupe": {
+    "interpretation": "Mésentente. Difficultés relationnelles. Couple qui fonctionne mal. Problémes a communiquer. Désaccords fréquents. Disputes et conflits. Absence de dialogue véritable.",
+    "image": "tdm/C_08.jpg"
+  },
+  "Huit de Deniers": {
+    "interpretation": "C’est la lame du labeur. I!  faut semer longtemps avant de récolter. Il ne faut pas compter sur un facteur chance. Le consultant ne bénéficie d’aucune aide. Il est indispensable de faire des efforts, de beaucoup travailler, d’investir de l’énergie et du temps, si l’on veut récolter. Cependant, le résultat n’est pas garanti : les sacrifices peuvent étre inutiles (considérer l’ensemble du jeu). Terme a des pourparlers. Refus de prét.",
+    "image": "tdm/D_08.jpg"
+  },
+  "Neuf de Bâton": {
+    "interpretation": "Spiritualité. Equilibre intérieur. Vie spirituelle. Croyance religieuse. Humilité. Générosité. Le consultant fait preuve de don de soi. Il est altruiste. Il aime les autres et se montre profondément humain. La lame indique souvent le fait d’avoir un rdle social 4 jouer, une mission humanitaire a remplir. Elle désigne le fait de se mettre au service des autres. Désintéressement. Responsabilités sociales importantes. Lame de fécondité, naissance.",
+    "image": "tdm/B_09.jpg"
+  },
+  "Neuf d'Épée": {
+    "interpretation": "Etudes. Réussite aux examens. Période favorable aux stages et formations. I] est conseillé au consultant de se former pour évoluer. Bonne scolarité pour les enfants.",
+    "image": "tdm/E_09.jpg"
+  },
+  "Neuf de Coupe": {
+    "interpretation": "Choix affectif. Relation triangulaire possible. Séduction. Période de charme et de sollicitations extérieures. Ou bien « infidélité » symbolique (travail débordant, mére possessive, amitiés trop prenantes, etc.).",
+    "image": "tdm/C_09.jpg"
+  },
+  "Neuf de Deniers": {
+    "interpretation": "Favorise les formations. Bonne période pour les études et les stages a caractére pratique. Il est nécessaire de se former pour pouvoir évoluer. Création, expansion et développement dans les affaires. Désintéressement : le consultant fait les choses plus par amour que pour un résultat matériel. Lame de fécondité, naissance.",
+    "image": "tdm/D_09.jpg"
+  },
+  "Dix de Bâton": {
+    "interpretation": "Renouveau. Le consultant  est capable de prendre des initiatives, de trouver les solutions adaptées aux problémes. Clarté intérieure. C’est la lame de sortie du tunnel. Le sujet entre dans une période de renouveau, de renaissance. Amélioration générale de l’existence. Esprit pratique. Grand sens des responsabilités.",
+    "image": "tdm/B_10.jpg"
+  },
+  "Dix d'Épée": {
+    "interpretation": "Accomplissement. Aboutissement. Réalisation des désirs sur un plan global. Epanouissement. Contentement. Atteinte des objectifs fixés. Le fait d’étre bien dans sa peau. Victoire et réussite.",
+    "image": "tdm/E_10.jpg"
+  },
+  "Dix de Coupe": {
+    "interpretation": "Retour. Réconciliation. Retrouvailles. Reprise d’une ancienne relation. Le fait de renouer des liens amicaux ou familiaux.",
+    "image": "tdm/C_10.jpg"
+  },
+  "Dix de Deniers": {
+    "interpretation": "Tournant décisif. Fin d’une étape. Changement capital dans sa situation matérielle. Terme et commencement d’une nouvelle période de sa vie économique. Virage sur le plan financier. Si bon passé matériel, ouverture d’une phase plus difficile, plus rigoureuse. Si passé difficile, fin des problémes et commencement d’une époque d’aisance financiére.",
+    "image": "tdm/D_10.jpg"
+  },
+  "Valet de Bâton": {
+    "interpretation": "Ambition. Grandes potentialités, qualités intérieures, talent, génie, mais ne réalise rien. Nécessité de changer intérieurement pour évoluer. Enfant ou adolescent capable, créatif et volontaire.",
+    "image": "tdm/B_11.jpg"
+  },
+  "Valet d'Épée": {
+    "interpretation": "Phase de préparation. Elaboration mentale. Planification. Organisation. Période d’apprentissage nécessaire. Intelligence. Enfant ou adolescent intelligent, doué pour les études.",
+    "image": "tdm/E_11.jpg"
+  },
+  "Valet de Coupe": {
+    "interpretation": "Romantisme. Le fait d’étre amoureux. Rencontre favorisée. Jeunesse des sentiments. Développement positif de union. Enfant ou adolescent sociable, ouvert et communicatif.",
+    "image": "tdm/C_11.jpg"
+  },
+  "Valet de Deniers": {
+    "interpretation": "Avenir prometteur. Le consultant posséde peu mais il peut acquérir beaucoup. Toute action sera récompensée. Carte favorable aux créations d’affaires. Enfant ou adolescent en bonne santé.",
+    "image": "tdm/D_11.jpg"
+  },
+  "Cavalier de Bâton": {
+    "interpretation": "Persévérance. II faut continuer. Le changement est inutile et déconseillé. Il est nécessaire d’exploiter la situation en place, le moment présent. Continuité. Maintien. Peu propice aux déplacements. Mouvements trés limités. Le fait de rester dans la méme région, le méme quartier.",
+    "image": "tdm/B_12.jpg"
+  },
+  "Cavalier d'Épée": {
+    "interpretation": "Victoire. Le fait de gagner un combat gagné. Réussite d’un projet pour lequel une « lutte » a été engagée. Triomphe total. Les efforts sont récompensés. Nécessité de se battre : la cause en vaut la peine. Déplacements professionnels. Mutation. Retour au foyer, dans sa ville ou son pays d’origine.",
+    "image": "tdm/E_12.jpg"
+  },
+  "Cavalier de Coupe": {
+    "interpretation": "Communication. Rencontres amicales. Favorise les contacts. Le consultant est un bon médiateur. I] sait communiquer ses idées aux autres. R6le social a jouer. Déplacements ou voyages d’agrément (pour retrouver des amis, la famille, etc.). Déménagement vers une région ou le sujet a des relations, des attaches affectives.",
+    "image": "tdm/C_12.jpg"
+  },
+  "Cavalier de Deniers": {
+    "interpretation": "Progression financiére douce mais certaine. Augmentation des revenus. Les choses s‘arrangent naturellement. Il faut avoir confiance. C’est une lame d’espoir. Voyage d'affaires. Mutation professionnelle. Déménagement vers une région inconnue.",
+    "image": "tdm/D_12.jpg"
+  },
+  "Reyne de Bâton": {
+    "interpretation": "Accession au pouvoir, a une position hiérarchique élevée. Commandement. Le fait de gouverner, de diriger. Statut social honorifique. Femme de caractére, affirmée. Dirigeante. Directrice.",
+    "image": "tdm/B_13.jpg"
+  },
+  "Reyne d'Épée": {
+    "interpretation": "Prise de décision. Détermination et volonté dont il faut faire preuve. II faut trancher, sans laisser de place aux doutes. Femme ayant une activité d’ordre intellectuel.",
+    "image": "tdm/E_13.jpg"
+  },
+  "Reyne de Coupe": {
+    "interpretation": "Engagement affectif. Continuité. Conservation. Installation dans la durée. Femme de ceur : mére, épouse, bien-aimée.",
+    "image": "tdm/C_13.jpg"
+  },
+  "Reyne de Deniers": {
+    "interpretation": "Aisance. Situation matérielle confortable et sécurisante. Accession a4 un meilleur niveau de vie. Opulence. Femme d'affaires (commer¢ante, comptable).",
+    "image": "tdm/D_13.jpg"
+  },
+  "Roy de Bâton": {
+    "interpretation": "Honneurs. Mérites reconnus et récompensés. Célébrité. Autorité morale sur les autres. Elévation sociale et personnelle. Valorisation. Homme de caractére, affirmé. Dirigeant. Directeur. Chef.",
+    "image": "tdm/B_14.jpg"
+  },
+  "Roy d'Épée": {
+    "interpretation": "Richesse intérieure. Equilibre.  Sérénité. Réalisation de tous ses désirs. Aboutissement. Accession aux objectifs fixés. Connaissance. Homme ayant une activité d’ordre intellectuel.",
+    "image": "tdm/E_14.jpg"
+  },
+  "Roy de Coupe": {
+    "interpretation": "Séduction et charme. Période de rencontres. Désir de nouveauté et de changement. Homme de ceur : pére, époux, bien-aimé.",
+    "image": "tdm/C_14.jpg"
+  },
+  "Roy de Deniers": {
+    "interpretation": "Détachement. Situation matérielle saine et satisfaisante. Le consultant est détaché, peu matérialiste. Il s’investit dans d’autres valeurs. Homme d'affaires (financier, commergant).",
+    "image": "tdm/D_14.jpg"
+  }
+}

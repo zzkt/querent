@@ -1,0 +1,8 @@
+# -*- mode: org; coding: utf-8; -*-
+#+title: Le Tarot de Marsaille
+
+The Tarot of Marseilles (or Marseille deck), also widely known by the French designation “Tarot de Marseille”, is one of the standard patterns for the design of tarot cards. It is a pattern from which many subsequent tarot decks derive. The Tarot deck was probably invented in northern Italy in the 15th century and introduced into southern France when the French conquered Milan and the Piedmont in 1499.
+
+The name Le Tarot de Marseille is not of particularly ancient vintage; it was coined at least as early as end of 19th century (1889 Papus, French occultist) and was popularized in the 1930s by the French cartomancer Paul Marteau, who used this collective name to refer to a variety of closely related designs that were being made in the city of Marseille in the south of France, a city that was a centre of playing card manufacturing.
+
+Images are from the Wikimedia Commons as seen near [[ https://en.wikipedia.org/wiki/Tarot_of_Marseilles][Tarot of Marsailles]].
