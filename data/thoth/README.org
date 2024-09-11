@@ -1,0 +1,4 @@
+# -*- mode: org; coding: utf-8; -*-
+#+title: Thoth Tarot
+
+A widely-used esoteric Tarot deck is Aleister Crowley's Thoth Tarot. Crowley engaged the artist Lady Frida Harris to paint the cards for the deck. The Thoth deck is distinctly different from the Rider-Waite deck with a very intricately elaborated symbolism and meanings. The deck was finished in 1944 but published for the first time in 1969.
