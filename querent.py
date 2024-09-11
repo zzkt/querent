@@ -9,33 +9,18 @@
 import random
 import json
 
-interpretations_file = "data/card_meanings.json"
+cards_file = "data/cards_thoth.json"
 
-def parse_interpretations(path):
+def parse_cards_file(path):
     with open(path) as f:
         data = json.load(f)
         return data
 
-major_arcana = ["The Fool", "The Magician", "The High Priestess",
-                "The Empress", "The Emperor", "The Hierophant",
-                "The Lovers", "The Chariot", "Justice",
-                "The Hermit", "The Wheel of Fortune", "Strength",
-                "The Hanged Man", "Death", "Temperance",
-                "The Devil", "The Tower", "The Star",
-                "The Moon", "The Sun", "Judgement", "The World"]
+cards = parse_cards_file(cards_file)
 
-suits = ["Wands", "Swords", "Cups", "Pentacles"]
-
-ranks = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven",
-         "Eight", "Nine", "Ten", "Page", "Knight", "Queen", "King"]
-
-minor_arcana = [f"{card} of {suit}" for card in ranks for suit in suits]
-
-deck = major_arcana + minor_arcana
-
-interpretation = parse_interpretations(interpretations_file)
-
-def prepare_the_cards():
+def prepare_cards():
+    global cards
+    deck = list(set(cards))
     return deck
 
 def shuffle_deck(deck):
@@ -46,18 +31,22 @@ def spread_cards(deck):
     return spread
 
 def interpret_spread(spread):
-    positions = ["ANCHOR: The present situation, what grounds you.",
-                 "TIDE: The changing influences, what's in flux.",
-                 "HORIZON: The long-term outlook, what's ahead."]
+    global cards
+    layout = ["TIDE: The changing influences, what's in flux.",
+              "ANCHOR: The present situation, what grounds you.",
+              "HORIZON: The long-term outlook, what's ahead."]
+    result = []
     for i in range(3):
         card = spread[i]
-        print(f"{positions[i]}\n{card}: {interpretation[card]}\n")
+        result.append(f"{layout[i]}\n\n{card}: {cards[card]['interpretation']}\n")
+    return result
 
 def read_cards():
-    deck = prepare_the_cards()
+    deck = prepare_cards()
     shuffle_deck(deck)
     spread = spread_cards(deck)
-    interpret_spread(spread)
+    reading = interpret_spread(spread)
+    print(*reading, sep="\n")
 
 if __name__ == '__main__':
     read_cards()

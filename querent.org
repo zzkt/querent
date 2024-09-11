@@ -1,7 +1,11 @@
 # -*- mode: org;  coding: utf-8; -*-
+#+OPTIONS: num:nil toc:3
 #+title: querent
 
+* The Significator
+
 Establish the computational, social and legalistic environments
+
 #+BEGIN_SRC python :tangle querent.py
 #!/usr/bin/env python
 #+END_SRC
@@ -20,24 +24,272 @@ import random
 import json
 #+END_SRC
 
-Interpretations of the cards are stored in a JSON file.
+Images and interpretations of the cards are stored in a JSON file. The file =cards_rws.json= contains the Raider Waite Smith deck, The Marseille/Milan deck can be found in =cards_tdm.json=, and =cards_thoth.json= contains the Thoth deck by Crowley & Harris.
 
 #+BEGIN_SRC python :tangle querent.py
-interpretations_file = "data/card_meanings.json"
+cards_file = "data/cards_thoth.json"
 #+END_SRC
 
-This function will parse the interpretation file and return a python dictionary.
+This function will parse the card file and return a python dictionary.
 
 #+BEGIN_SRC python :tangle querent.py
-def parse_interpretations(path):
+def parse_cards_file(path):
     with open(path) as f:
         data = json.load(f)
         return data
 #+END_SRC
 
-The cards
+Read the card file, interpretations and images.
 
 #+BEGIN_SRC python :tangle querent.py
+cards = parse_cards_file(cards_file)
+#+END_SRC
+
+Preparation of the cards. The name of each card is used as key for the dictionary, convert to a set containing just the keys (card names) and convert the set to a list as an ordered (indexable) collection.
+
+#+BEGIN_SRC python :tangle querent.py
+def prepare_cards():
+    global cards
+    deck = list(set(cards))
+    return deck
+#+END_SRC
+
+Shuffle the deck
+
+#+BEGIN_SRC python :tangle querent.py
+def shuffle_deck(deck):
+    random.shuffle(deck)
+#+END_SRC
+
+Create a three card spread by picking the first three cards from the shuffled deck
+
+#+BEGIN_SRC python :tangle querent.py
+def spread_cards(deck):
+    spread = deck[0:3]
+    return spread
+#+END_SRC
+
+Interpret the spread (assuming a three card spread)
+
+#+BEGIN_SRC python :tangle querent.py
+def interpret_spread(spread):
+    global cards
+    layout = ["TIDE: The changing influences, what's in flux.",
+              "ANCHOR: The present situation, what grounds you.",
+              "HORIZON: The long-term outlook, what's ahead."]
+    result = []
+    for i in range(3):
+        card = spread[i]
+        result.append(f"{layout[i]}\n\n{card}: {cards[card]['interpretation']}\n")
+    return result
+#+END_SRC
+
+Read the cards
+
+#+BEGIN_SRC python :tangle querent.py
+def read_cards():
+    deck = prepare_cards()
+    shuffle_deck(deck)
+    spread = spread_cards(deck)
+    reading = interpret_spread(spread)
+    print(*reading, sep="\n")
+#+END_SRC
+
+If the =querent.py= script is run from the command line, it calls the =read_cards= function and exits.
+
+#+BEGIN_SRC python :tangle querent.py
+if __name__ == '__main__':
+    read_cards()
+#+END_SRC
+
+* Empty the Sea With a Fork
+
+Establish the computational, social and legalistic environments
+
+#+BEGIN_SRC python :tangle main.py
+#!/usr/bin/env python
+#+END_SRC
+
+#+BEGIN_SRC python :tangle main.py
+# File name: main.py
+# Description: An experimental software tool for personal tarot practice.
+# Author: nik gaffney <nik@fo.am>
+# Created: 2024-09-06
+# SPDX-License-Identifier: GPL-3.0-or-later
+#+END_SRC
+
+A visual layout using the [[https://flet.dev/][flet]] library and querent
+
+#+BEGIN_SRC python  :tangle main.py
+import flet as ft
+from querent import *
+#+END_SRC
+
+Some Dimensions
+#+BEGIN_SRC python  :tangle main.py
+CARD_WIDTH = 360
+CARD_HEIGHT = 600
+
+TEXT_WIDTH = 360
+TEXT_HEIGHT = 2160
+
+PADDING = 40
+#+END_SRC
+
+Read the cards.
+#+BEGIN_SRC python  :tangle main.py
+def main(page: ft.Page):
+    deck = prepare_cards()
+    shuffle_deck(deck)
+    spread = spread_cards(deck)
+    reading = interpret_spread(spread)
+#+END_SRC
+
+Store the text and image links
+#+BEGIN_SRC python  :tangle main.py
+    c1_text = reading[0]
+    c2_text = reading[1]
+    c3_text = reading[2]
+#+END_SRC
+
+#+BEGIN_SRC python  :tangle main.py
+    c1_image = cards[spread[0]]['image']
+    c2_image = cards[spread[1]]['image']
+    c3_image = cards[spread[2]]['image']
+#+END_SRC
+
+A font perhaps?
+#+BEGIN_SRC python  :tangle main.py
+    page.fonts = {"Baskerville": "https://github.com/google/fonts/raw/main/ofl/librebaskerville/LibreBaskerville-Regular.ttf"}
+#+END_SRC
+
+Thus. The first card.
+#+BEGIN_SRC python  :tangle main.py
+    card_1 = ft.Stack(
+        [
+            ft.Image(
+                src=c1_image,
+                width=CARD_WIDTH,
+                height=CARD_HEIGHT,
+                top=PADDING,
+                fit=ft.ImageFit.CONTAIN,
+                border_radius=ft.border_radius.all(30),
+            ),
+            ft.Text(
+                c1_text,
+                size=14,
+                font_family="Baskerville",
+                color=ft.colors.GREY_600,
+                top=CARD_HEIGHT + 2*PADDING,
+                width=TEXT_WIDTH,
+                text_align="left",
+                overflow="VISIBLE"
+            )
+        ],
+        alignment=ft.alignment.top_center,
+        left=PADDING,
+        width=TEXT_WIDTH,
+        height=CARD_HEIGHT + TEXT_HEIGHT,
+    )
+#+END_SRC
+
+The second card.
+#+BEGIN_SRC python  :tangle main.py
+    card_2 = ft.Stack(
+        [
+            ft.Image(
+                src=c2_image,
+                width=CARD_WIDTH,
+                height=CARD_HEIGHT,
+                top=PADDING,
+                fit=ft.ImageFit.CONTAIN,
+                border_radius=ft.border_radius.all(10),
+            ),
+            ft.Text(
+                c2_text,
+                size=14,
+                font_family="Baskerville",
+                color=ft.colors.GREY_600,
+                top=CARD_HEIGHT + 2*PADDING,
+                width=TEXT_WIDTH,
+                text_align="left",
+                overflow="VISIBLE"
+            )
+        ],
+        alignment=ft.alignment.top_center,
+        left=TEXT_WIDTH + 2*PADDING,
+        width=TEXT_WIDTH,
+        height=CARD_HEIGHT + TEXT_HEIGHT,
+    )
+#+END_SRC
+
+The third card.
+#+BEGIN_SRC python  :tangle main.py
+    card_3 = ft.Stack(
+        [
+            ft.Image(
+                src=c3_image,
+                width=CARD_WIDTH,
+                height=CARD_HEIGHT,
+                top=PADDING,
+                fit=ft.ImageFit.CONTAIN,
+                border_radius=ft.border_radius.all(10),
+            ),
+            ft.Text(
+                c3_text,
+                size=14,
+                font_family="Baskerville",
+                color=ft.colors.GREY_600,
+                top=CARD_HEIGHT + 2*PADDING,
+                width=TEXT_WIDTH,
+                text_align="left",
+                overflow="VISIBLE"
+            )
+        ],
+        alignment=ft.alignment.top_center,
+        left=2*TEXT_WIDTH + 3*PADDING,
+        width=TEXT_WIDTH,
+        height=CARD_HEIGHT + TEXT_HEIGHT,
+    )
+#+END_SRC
+
+The page, it’s container and contents.
+#+BEGIN_SRC python  :tangle main.py
+    controls = [card_1, card_2, card_3]
+
+    page.title = "querent"
+
+    page.window.full_screen = True
+
+    page.scroll="HIDDEN"
+
+    page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
+
+    page.add(ft.Stack(controls=controls,
+                      width=3*TEXT_WIDTH + 5*PADDING,
+                      height=CARD_HEIGHT + TEXT_HEIGHT + 2*PADDING
+                      ))
+#+END_SRC
+
+
+#+BEGIN_SRC python  :tangle main.py
+ft.app(main, assets_dir="data")
+#+END_SRC
+
+* A complex and disconcerting whole
+
+#+begin_quote
+The Tarot deck appears as a complex and disconcerting whole to the beginner. Some cards seem easier to interpret than others, as they are charged by symbols that are more or less familiar. Some represent human figures, while others depict geometric designs or objects. Some carry a name, others a number, and others are not even titled or numbered. This leads to a great temptation to rely on already familiar structures such as astrology or various kinds of numerology to start studying this deck. But like all consistent systems and all works of sacred art, the Tarot contains its own structure that it is our duty to discover.
+—Alejandro Jodorowsky
+#+end_quote
+
+
+** Rider Waite Smith (RWS)
+
+#+attr_html: :width 100%
+[[file:data/img/3-rws.png]]
+
+#+BEGIN_SRC python
 major_arcana = ["The Fool", "The Magician", "The High Priestess",
                 "The Empress", "The Emperor", "The Hierophant",
                 "The Lovers", "The Chariot", "Justice",
@@ -56,59 +308,68 @@ minor_arcana = [f"{card} of {suit}" for card in ranks for suit in suits]
 deck = major_arcana + minor_arcana
 #+END_SRC
 
-The interpretation of the cards
+** Le Tarot de Marseille/Milan (TdM)
 
-#+BEGIN_SRC python :tangle querent.py
-interpretation = parse_interpretations(interpretations_file)
+#+attr_html: :width 100%
+[[file:data/img/3-tdm.png]]
+
+#+BEGIN_SRC python
+major_arcana = ["Le Bateleur", "La Pances", "Impératris",
+                "L'Empereur", "Le Pape", "L'Amoureu",
+                "Le Charior", "Justice", "L'Ermite",
+                "La Roue de Fortun", "Force", "Le Pandu",
+                "(La Mort)", "Tempérance", "Le Diable",
+                "La Maison Dieu", "Le Toile", "La Lune",
+                "Le Soleil", "Le Jugement", "Le Monde", "Le Fol"]
+
+suits = ["Bâton", "Épée", "Coupe", "Deniers"]
+
+ranks = ["As", "Deux", "Trois", "Quatre", "Cinq", "Six", "Sept",
+         "Huit", "Neuf", "Dix", "Valet", "Cavalier", "Reyne", "Roy"]
+
+minor_arcana = [f"{card} de {suit}" for card in ranks for suit in suits] # mais D’ÉPÉE
+
+deck = major_arcana + minor_arcana
 #+END_SRC
 
-Preparation of the cards (currently just returns the deck)
+** Thoth Tarot (Thoth)
 
-#+BEGIN_SRC python :tangle querent.py
-def prepare_the_cards():
-    return deck
+#+attr_html: :width 100%
+[[file:data/img/3-thoth.png]]
+
+#+begin_quote
+c.f. Dry Martini
+#+end_quote
+
+#+BEGIN_SRC python
+major_arcana = ["The Fool", "The Magus", "The Priestess",
+                "The Empress", "The Emperor", "The Hierophant",
+                "The Lovers", "The Chariot", "Adjustment", "The Hermit",
+                "Fortune", "Lust", "The Hanged Man", "Death",
+                "Art", "The Devil", "The Tower", "The Star",
+                "The Moon", "The Sun", "The Aeon", "The Universe"]
+
+suits = ["Wands", "Swords", "Cups", "Disks"]
+
+ranks = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight",
+         "Nine", "Ten", "Princess", "Prince", "Queen", "Knight"]
+
+minor_arcana = [f"{card} of {suit}" for card in ranks for suit in suits]
+
+deck = major_arcana + minor_arcana
 #+END_SRC
 
-Shuffle the deck
+* Further
 
-#+BEGIN_SRC python :tangle querent.py
-def shuffle_deck(deck):
-    random.shuffle(deck)
-#+END_SRC
+#+begin_quote
+Everything I wanted to know was right there between my hands and before my eyes, in the cards. It was essential to stop listening to the explanations founded on the “tradition,” the concordances, the myths, the parapsychological explanations and allow the Arcana to speak for themselves.
+—Alejandro Jodorowsky
+#+end_quote
 
-Create a three card spread by picking the first three cards from the deck
-
-#+BEGIN_SRC python :tangle querent.py
-def spread_cards(deck):
-    spread = deck[0:3]
-    return spread
-#+END_SRC
-
-Interpret the spread (assuming a three card spread)
-
-#+BEGIN_SRC python :tangle querent.py
-def interpret_spread(spread):
-    positions = ["ANCHOR: The present situation, what grounds you.",
-                 "TIDE: The changing influences, what's in flux.",
-                 "HORIZON: The long-term outlook, what's ahead."]
-    for i in range(3):
-        card = spread[i]
-        print(f"{positions[i]}\n{card}: {interpretation[card]}\n")
-#+END_SRC
-
-Read the cards
-
-#+BEGIN_SRC python :tangle querent.py
-def read_cards():
-    deck = prepare_the_cards()
-    shuffle_deck(deck)
-    spread = spread_cards(deck)
-    interpret_spread(spread)
-#+END_SRC
-
-If this script is run from the command line, it calls the =read_cards= function and exits
-
-#+BEGIN_SRC python :tangle querent.py
-if __name__ == '__main__':
-    read_cards()
-#+END_SRC
+- A.E. Waite, The Pictorial Key to the Tarot (1910)
+- Alejandro Jodorowsky, and Marianne Costa, The Way of Tarot: The Spiritual Teacher in the Cards, trans. by Jon E. Graham (2009)
+- MacGregor Mathers, and Harriet Felkin, Book T - A Description of the Cards of the Tarot with Their Attributions; Including a Method of Divination by Their Use
+- Master Therion, The Book of Thoth: A Short Essay on the Tarot of the Egyptians (1974)
+- Aleister Crowley, and Frieda Harris, Thoth Tarot Deck (1976)
+- [[https://sacred-texts.com/tarot/index.htm][Internet Sacred Texts Archive]]
+- [[https://libarynth.org/tarot/][The Libarynth]]
