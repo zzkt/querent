@@ -1,0 +1,314 @@
+{
+  "The Fool": {
+    "interpretation": "Beginnings, innocence, spontaneity. The eternal child, filled with wonder and trust in the universe. Embarking on a new adventure with a free spirit and faith in the future.",
+    "image": "rws/00_Fool.jpg"
+  },
+  "The Magician": {
+    "interpretation": "Manifestation, resourcefulness, power. The visionary, skillfully wielding the tools of creation. Turning dreams into reality through willpower and inspired action.",
+    "image": "rws/01_Magician.jpg"
+  },
+  "The High Priestess": {
+    "interpretation": "Intuition, mystery, the subconscious mind. The guardian of hidden knowledge, sitting between the pillars of duality. Trusting in wisdom that comes through stillness and dreams.",
+    "image": "rws/02_High_Priestess.jpg"
+  },
+  "The Empress": {
+    "interpretation": "Femininity, fertility, abundance. The archetypal mother, overflowing with unconditional love and creative power. Nurturing life in all its forms and finding beauty in nature.",
+    "image": "rws/03_Empress.jpg"
+  },
+  "The Emperor": {
+    "interpretation": "Authority, structure, leadership. The father figure, providing stability and protection through the power of reason. Establishing solid foundations upon which to build.",
+    "image": "rws/04_Emperor.jpg"
+  },
+  "The Hierophant": {
+    "interpretation": "Tradition, spiritual wisdom, institutions. The wise teacher, passing on sacred knowledge and moral guidance. Finding meaning in conformity to principles and ritual.",
+    "image": "rws/05_Hierophant.jpg"
+  },
+  "The Lovers": {
+    "interpretation": "Love, harmony, union. The merging of opposites, the choice between sacred and profane love. Relationships that elevate and partnerships that bring wholeness.",
+    "image": "rws/06_Lovers.jpg"
+  },
+  "The Chariot": {
+    "interpretation": "Willpower, determination, victory. The conquering hero, mastering opposing forces through focus and discipline. Charging ahead with confidence and drive.",
+    "image": "rws/07_Chariot.jpg"
+  },
+  "Strength": {
+    "interpretation": "Courage, compassion, influence. The heroine, gently yet powerfully taming the beast within. Demonstrating grace and inner strength in the face of challenges.",
+    "image": "rws/08_Strength.jpg"
+  },
+  "The Hermit": {
+    "interpretation": "Introspection, guidance, solitude. The wise one, withdrawing to seek truth within. Finding clarity and purpose through detachment and self-reflection.",
+    "image": "rws/09_Hermit.jpg"
+  },
+  "The Wheel of Fortune": {
+    "interpretation": "Cycles, destiny, turning points. The ever-changing nature of life, the rise and fall of fortune. Adapting to new circumstances with faith in a higher plan.",
+    "image": "rws/10_Wheel_of_Fortune.jpg"
+  },
+  "Justice": {
+    "interpretation": "Truth, fairness, cause and effect. The impartial judge, weighing decisions and actions with integrity. Accepting responsibility and seeking balance.",
+    "image": "rws/11_Justice.jpg"
+  },
+  "The Hanged Man": {
+    "interpretation": "Surrender, sacrifice, new perspectives. The martyr, releasing control and breaking old patterns. Seeing the world from a different vantage point brings enlightenment.",
+    "image": "rws/12_Hanged_Man.jpg"
+  },
+  "Death": {
+    "interpretation": "Transformation, endings, new beginnings. The grim reaper, cutting away what no longer serves to make way for rebirth. Facing fears allows a metamorphosis to unfold.",
+    "image": "rws/13_Death.jpg"
+  },
+  "Temperance": {
+    "interpretation": "Balance, moderation, harmony. The alchemist, blending disparate elements in perfect proportion. Finding the middle path and creating unity from diversity.",
+    "image": "rws/14_Temperance.jpg"
+  },
+  "The Devil": {
+    "interpretation": "Shadow, attachment, vices. The tempter, inviting a confrontation with dark desires and bondage. Liberating the self by acknowledging hidden influences.",
+    "image": "rws/15_Devil.jpg"
+  },
+  "The Tower": {
+    "interpretation": "Upheaval, revelation, awakening. The lightning bolt, shattering false structures and illusions. Disasters clear the way for new awareness and growth.",
+    "image": "rws/16_Tower.jpg"
+  },
+  "The Star": {
+    "interpretation": "Hope, inspiration, renewal. The celestial guide, illuminating possibilities after a period of darkness. Healing flows when we open to divine grace.",
+    "image": "rws/17_Star.jpg"
+  },
+  "The Moon": {
+    "interpretation": "Mystery, illusion, intuition. The dreamscape, where shadows obscure and imagination reigns. Navigating the unknown through attunement to subtle messages.",
+    "image": "rws/18_Moon.jpg"
+  },
+  "The Sun": {
+    "interpretation": "Joy, success, vitality. The radiant child, embracing life with innocence and full self-expression. Celebrating the blessings of creativity, confidence and clarity.",
+    "image": "rws/19_Sun.jpg"
+  },
+  "Judgement": {
+    "interpretation": "Awakening, purpose, redemption. The call to a higher life, the rising up from outgrown ways of being. Hearing the inner voice of Spirit brings absolution.",
+    "image": "rws/20_Judgement.jpg"
+  },
+  "The World": {
+    "interpretation": "Wholeness, completion, integration. The cosmic dancer, joyfully united with the divine. Fulfillment comes through aligning the self with the greater rhythm of life.",
+    "image": "rws/21_World.jpg"
+  },
+  "Ace of Wands": {
+    "interpretation": "Inspiration, new beginnings, potential. A surge of creative energy and enthusiasm initiates a new venture or phase of life. The seed of an idea is ready to be brought into reality.",
+    "image": "rws/wands_01.jpg"
+  },
+  "Two of Wands": {
+    "interpretation": "Planning, decision, exploration. Assessing priorities and considering long-term goals. A choice must be made between sticking with what's known or taking a risk to expand horizons.",
+    "image": "rws/wands_02.jpg"
+  },
+  "Three of Wands": {
+    "interpretation": "Foresight, expansion, enterprise. Initial success allows for strategic planning for future growth. Opportunities arise through effort and preparation.",
+    "image": "rws/wands_03.jpg"
+  },
+  "Four of Wands": {
+    "interpretation": "Celebration, harmony, homecoming. Joyful festivities mark the completion of a foundational phase or milestone. A period of peace and contentment in personal life.",
+    "image": "rws/wands_04.jpg"
+  },
+  "Five of Wands": {
+    "interpretation": "Conflict, competition, challenges. Petty disputes or clashing egos create tension. A need to prove oneself leads to rivalry.",
+    "image": "rws/wands_05.jpg"
+  },
+  "Six of Wands": {
+    "interpretation": "Victory, recognition, progress. Public acclaim and rewards for efforts. Confidence is high as success breeds opportunities for advancement.",
+    "image": "rws/wands_06.jpg"
+  },
+  "Seven of Wands": {
+    "interpretation": "Perseverance, defence, conviction. Holding one's ground in the face of adversity. Maintaining integrity and asserting beliefs.",
+    "image": "rws/wands_07.jpg"
+  },
+  "Eight of Wands": {
+    "interpretation": "Speed, movement, alignment. Rapid developments accelerate progress. Focused energy and timely action bring goals within reach.",
+    "image": "rws/wands_08.jpg"
+  },
+  "Nine of Wands": {
+    "interpretation": "Resilience, determination, stamina. Inner resources provide strength to persist despite setbacks and weariness. Protecting achievements with reserve energy.",
+    "image": "rws/wands_09.jpg"
+  },
+  "Ten of Wands": {
+    "interpretation": "Burdens, responsibility, completion. Shouldering duties to finish an onerous task. Carrying a heavy load to reach the end of a cycle.",
+    "image": "rws/wands_10.jpg"
+  },
+  "Page of Wands": {
+    "interpretation": "Enthusiasm, exploration, discovery. A messenger bearing news of new adventures and opportunities. Embarking on a journey of creativity and passion with a youthful spirit.",
+    "image": "rws/wands_11.jpg"
+  },
+  "Knight of Wands": {
+    "interpretation": "Action, adventure, fearlessness. A bold and confident pursuer of dreams, charging forward with courage and determination. Embracing change and taking risks to manifest desires.",
+    "image": "rws/wands_12.jpg"
+  },
+  "Queen of Wands": {
+    "interpretation": "Confidence, vibrancy, independence. The vivacious and charismatic leader, inspiring others through her warmth and enthusiasm. Nurturing creative visions with grace and determination.",
+    "image": "rws/wands_13.jpg"
+  },
+  "King of Wands": {
+    "interpretation": "Leadership, vision, entrepreneurship. The bold and inspiring ruler, using his charisma and confidence to rally others towards a common goal. Transforming creative sparks into tangible realities.",
+    "image": "rws/wands_13.jpg"
+  },
+  "Ace of Swords": {
+    "interpretation": "Clarity, breakthrough, truth. A flash of insight cuts through confusion. Seeing the essence of a matter with lucid understanding.",
+    "image": "rws/swords_01.jpg"
+  },
+  "Two of Swords": {
+    "interpretation": "Indecision, denial, avoidance. Weighing options with impartiality. Refusing to acknowledge emotions or intuition.",
+    "image": "rws/swords_02.jpg"
+  },
+  "Three of Swords": {
+    "interpretation": "Heartbreak, separation, grief. Painful experiences pierce the heart. Emotional anguish and difficult choices lead to growth.",
+    "image": "rws/swords_03.jpg"
+  },
+  "Four of Swords": {
+    "interpretation": "Rest, restoration, contemplation. Retreating from conflict to heal and gather strength. Achieving perspective through peaceful reflection.",
+    "image": "rws/swords_04.jpg"
+  },
+  "Five of Swords": {
+    "interpretation": "Conflict, betrayal, hostility. Engaging in hurtful power struggles. Winning at the cost of relationships or integrity.",
+    "image": "rws/swords_05.jpg"
+  },
+  "Six of Swords": {
+    "interpretation": "Transition, leaving behind, acceptance. Moving away from turbulence toward calmer times. Acknowledging loss while embracing necessary change.",
+    "image": "rws/swords_06.jpg"
+  },
+  "Seven of Swords": {
+    "interpretation": "Deception, trickery, tactics. Attempting to gain an advantage through cunning. Hiding the truth or escaping consequences.",
+    "image": "rws/swords_07.jpg"
+  },
+  "Eight of Swords": {
+    "interpretation": "Restriction, imprisonment, powerlessness. Feeling trapped by limiting beliefs. Avoiding responsibility for one's circumstances.",
+    "image": "rws/swords_08.jpg"
+  },
+  "Nine of Swords": {
+    "interpretation": "Anxiety, nightmares, torment. Dwelling on fears and doubts. Allowing the mind to amplify suffering.",
+    "image": "rws/swords_09.jpg"
+  },
+  "Ten of Swords": {
+    "interpretation": "Endings, rock bottom, defeat. Experiencing a painful yet conclusive finish. Letting go of past struggles to start anew.",
+    "image": "rws/swords_10.jpg"
+  },
+  "Page of Swords": {
+    "interpretation": "Curiosity, restlessness, new ideas. The inquisitive student, eager to learn and question the status quo. Exploring the world through the power of the mind.",
+    "image": "rws/swords_11.jpg"
+  },
+  "Knight of Swords": {
+    "interpretation": "Clarity, decisiveness, intellectual ambition. The fast-thinking and sharp-tongued crusader, cutting through illusions in pursuit of truth. Acting swiftly on ideas and beliefs.",
+    "image": "rws/swords_12.jpg"
+  },
+  "Queen of Swords": {
+    "interpretation": "Honesty, independence, perceptiveness. The quick-witted observer, seeing through facades with her keen intellect. Combining wisdom and fortitude to speak her truth.",
+    "image": "rws/swords_13.jpg"
+  },
+  "King of Swords": {
+    "interpretation": "Mental mastery, authority, integrity. The strategic and impartial ruler, making fair judgments based on logic and reason. Wielding the power of the mind with precision and ethics.",
+    "image": "rws/swords_14.jpg"
+  },
+  "Ace of Cups": {
+    "interpretation": "Love, new feelings, intuition. An outpouring of positive emotion nourishes the soul. Spiritual insights arise from an open heart.",
+    "image": "rws/cups_01.jpg"
+  },
+  "Two of Cups": {
+    "interpretation": "Connection, unity, partnership. Mutual attraction and joining of kindred spirits. A new romantic relationship or creative collaboration.",
+    "image": "rws/cups_02.jpg"
+  },
+  "Three of Cups": {
+    "interpretation": "Celebration, friendship, community. Shared emotions bring reasons to gather and connect with others. Expressing joy and affection.",
+    "image": "rws/cups_03.jpg"
+  },
+  "Four of Cups": {
+    "interpretation": "Apathy, contemplation, disconnection. Dissatisfaction and withdrawal provide an opportunity for re-evaluation. Avoiding present opportunities.",
+    "image": "rws/cups_04.jpg"
+  },
+  "Five of Cups": {
+    "interpretation": "Loss, grief, disappointment. Focusing on recent misfortunes obscures the good that remains. Regret over past actions or unfulfilled dreams.",
+    "image": "rws/cups_05.jpg"
+  },
+  "Six of Cups": {
+    "interpretation": "Nostalgia, innocence, familiarity. Revisiting the simple joys of childhood. Appreciating sentimental memories and longtime connections.",
+    "image": "rws/cups_06.jpg"
+  },
+  "Seven of Cups": {
+    "interpretation": "Options, fantasy, illusion. Imagined possibilities scatter attention. Wishful thinking requires discernment to separate reality from delusion.",
+    "image": "rws/cups_07.jpg"
+  },
+  "Eight of Cups": {
+    "interpretation": "Withdrawal, escapism, leaving behind. Walking away from unfulfilling circumstances in search of deeper purpose. Letting go of what no longer serves.",
+    "image": "rws/cups_08.jpg"
+  },
+  "Nine of Cups": {
+    "interpretation": "Contentment, gratitude, satisfaction. Appreciating the good things in life. Counting one's blessings and enjoying emotional stability.",
+    "image": "rws/cups_09.jpg"
+  },
+  "Ten of Cups": {
+    "interpretation": "Fulfillment, harmony, happiness. Experiencing the pinnacle of emotional achievement. Joyful alignment of family, friends and community.",
+    "image": "rws/cups_10.jpg"
+  },
+  "Page of Cups": {
+    "interpretation": "Sensitivity, imagination, intuition. The dreamy romantic, exploring the realm of emotions with an open heart. Discovering the beauty of creativity and the power of compassion.",
+    "image": "rws/cups_11.jpg"
+  },
+  "Knight of Cups": {
+    "interpretation": "Romance, charm, idealism. The poetic soul on a quest for love and beauty, wearing his heart on his sleeve. Following his feelings with the purity of intention.",
+    "image": "rws/cups_12.jpg"
+  },
+  "Queen of Cups": {
+    "interpretation": "Compassion, empathy, emotional nurturing. The loving mother figure, creating a safe space for emotions to flow. Healing others through her ability to hold space and offer understanding.",
+    "image": "rws/cups_13.jpg"
+  },
+  "King of Cups": {
+    "interpretation": "Emotional mastery, diplomacy, wisdom. The wise and balanced leader, ruling with kindness and understanding. Demonstrating the power of combining head and heart.",
+    "image": "rws/cups_14.jpg"
+  },
+  "Ace of Pentacles": {
+    "interpretation": "Opportunity, prosperity, new venture. The chance for material or financial gain. Planting the seed for future abundance.",
+    "image": "rws/pentacles_01.jpg"
+  },
+  "Two of Pentacles": {
+    "interpretation": "Balance, priorities, adapting. Juggling multiple responsibilities. Maintaining equilibrium through life's ups and downs.",
+    "image": "rws/pentacles_02.jpg"
+  },
+  "Three of Pentacles": {
+    "interpretation": "Teamwork, collaboration, building. Combining skills and effort to manifest a goal. Honing one's craft with dedication.",
+    "image": "rws/pentacles_03.jpg"
+  },
+  "Four of Pentacles": {
+    "interpretation": "Control, security, possessiveness. Focusing on conserving resources and wealth. Fearing loss or change.",
+    "image": "rws/pentacles_04.jpg"
+  },
+  "Five of Pentacles": {
+    "interpretation": "Hardship, isolation, worry. Material and spiritual poverty. Reaching out for support during difficult times.",
+    "image": "rws/pentacles_05.jpg"
+  },
+  "Six of Pentacles": {
+    "interpretation": "Generosity, charity, sharing. Giving and receiving assistance. Establishing fair and equitable exchanges.",
+    "image": "rws/pentacles_06.jpg"
+  },
+  "Seven of Pentacles": {
+    "interpretation": "Patience, perseverance, diligence. Investing time and effort for long-term rewards. Evaluating progress and considering next steps.",
+    "image": "rws/pentacles_07.jpg"
+  },
+  "Eight of Pentacles": {
+    "interpretation": "Apprenticeship, skill, mastery. Applying oneself to learning a trade or craft. Developing expertise through practice and dedication.",
+    "image": "rws/pentacles_08.jpg"
+  },
+  "Nine of Pentacles": {
+    "interpretation": "Abundance, luxury, self-sufficiency. Enjoying the fruits of one's labors. Appreciating finer things while maintaining independence.",
+    "image": "rws/pentacles_09.jpg"
+  },
+  "Ten of Pentacles": {
+    "interpretation": "Wealth, legacy, tradition. Accumulating material abundance and ensuring generational security. Realising lasting success and creating an enduring foundation.",
+    "image": "rws/pentacles_10.jpg"
+  },
+  "Page of Pentacles": {
+    "interpretation": "Manifestation, financial opportunity, new ventures. The diligent student of material matters, eager to learn the ways of the world. Laying the groundwork for future prosperity.",
+    "image": "rws/pentacles_11.jpg"
+  },
+  "Knight of Pentacles": {
+    "interpretation": "Reliability, hard work, productivity. The committed and responsible worker, steadily pursuing his goals with patience and determination. Bringing ideas into physical form through discipline.",
+    "image": "rws/pentacles_12.jpg"
+  },
+  "Queen of Pentacles": {
+    "interpretation": "Abundance, nurturing, groundedness. The generous and down-to-earth mother, providing a solid foundation of love and security. Tending to the physical world with care and practicality.",
+    "image": "rws/pentacles_13.jpg"
+  },
+  "King of Pentacles": {
+    "interpretation": "Material mastery, stability, generosity. The accomplished and successful ruler, having achieved prosperity through diligence and wisdom. Sharing his wealth and knowledge for the greater good.",
+    "image": "rws/pentacles_14.jpg"
+  }
+}
