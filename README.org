@@ -5,17 +5,17 @@ somewhat diverged from jcalpickard’s [[https://github.com/jcalpickard/querent.
 
 ** reading
 
-```
+#+BEGIN_SRC shell :dir :wrap SRC text :results raw
 python querent.py
-```
+#+END_SRC
 
-```
+#+BEGIN_SRC shell :dir :wrap SRC text :results raw
 python main.py
-```
+#+END_SRC
 
-```
+#+BEGIN_SRC shell :dir :wrap SRC text :results raw
 flet run -w --host localhost --port 8888 -a data
-```
+#+END_SRC
 
 then -> http://localhost:8888/
 
